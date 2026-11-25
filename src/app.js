@@ -53,6 +53,7 @@ app.use('/api/tickets', rateLimit({
   windowMs: 15 * 60 * 1000,
   limit: 100
 }));
+console.log("Hola a todos");
 
 app.use('/api/tickets', ticketsRoutes);
 
